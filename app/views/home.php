@@ -7,7 +7,7 @@
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-01">
                       <span class="sr-only">Toggle navigation</span>
                     </button>
-                    <a class="navbar-brand" href="#">Bay Watch</a>
+                    <a class="navbar-brand" href="/">Bay Watch</a>
                   </div>
                   <div class="collapse navbar-collapse" id="navbar-collapse-01">
                     <ul class="nav navbar-nav">           
@@ -42,8 +42,10 @@
                     <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
                 <!-- Indicators -->
               <ol class="carousel-indicators">
-                <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
-                <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel" data-slide-to="1"></li>
+                <li data-target="#carousel" data-slide-to="2"></li>
+
                 
               </ol>
 
@@ -52,13 +54,21 @@
                 <div class="item active">
                   <img src="./images/carousel/1.jpg" alt="FirstSlide">
                   <div class="carousel-caption">
-                      <small>BayWatch Understand</small>
+                      <h2>BayWatch Understand</h2>
                   </div>
                 </div>
+
                 <div class="item">
                   <img src="./images/carousel/2.jpg" alt="secondslide">
                   <div class="carousel-caption">
-                    <small>Baywatch help</small>
+                    <h2>Baywatch help</h2>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="./images/carousel/3.jpg" alt="thirdslide">
+                  <div class="carousel-caption">
+                    <h2>Baywatch Is For You</h2>
                   </div>
                 </div>
                 

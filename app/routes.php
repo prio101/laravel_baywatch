@@ -11,26 +11,34 @@
 |
 */
 
-Route::get('/', function()
-{	
-	 echo View::make('header') ;
-	 echo View::make('home')  ;
-	 echo View::make('footer') 	;
-});
+		$route1 = '/' ;
+		$route2 = '/about' ;
+		$route3 = '/contact' ;
 
-Route::get('/about',function(){
+		Route::get($route1, function()
+		{	
+			 echo View::make('header') ;
+			 echo View::make('home')  ;
+			 echo View::make('footer') 	;
+		})	;
 
-	echo View::make('header')	;
-	echo View::make('about')	;
-	echo View::make('footer')	;
+		Route::get($route2,function(){
+
+			echo View::make('header')	;
+			echo View::make('about')	;
+			echo View::make('footer')	;
 
 
-}) ;
+		}) ;
 
-Route::get('/contact',function(){
+		Route::get($route3,function(){
 
-	echo View::make('header')	;
-	echo View::make('contact')	;
-	echo View::make('footer')	;
+			echo View::make('header')	;
+			echo View::make('contact')	;
+			echo View::make('footer')	;
 
-})	;
+		})	;
+
+		
+
+		
